@@ -34,6 +34,16 @@
 $ npm install
 ```
 
+## before running the app
+1. start a postgreSQL db of docker
+```bash
+$ npm run start:dev:db
+```
+2. running the migration
+```bash
+$ npm run migrations:run
+```
+
 ## Running the app
 
 ```bash
